@@ -1,0 +1,11 @@
+npm i 
+
+sostituzione degli indirizzi nel config.js di node_modules/alastria-identity-lib/dist/
+
+sostituire la pubk di entity1 (account9) in configuration.json
+
+in questo caso stiamo utilizzando account2 come admin/issuer
+
+HAFUNZIONATOCHEPESCE!
+alastriaProxyAddress: 0xd6846cb8e928081dcc362570c52781560b540d5b
+the alastria DID is: did:ala:quor:redT:d6846cb8e928081dcc362570c52781560b540d5b
