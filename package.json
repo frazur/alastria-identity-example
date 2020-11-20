@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint './**/*.{js,ts,tsx}'",
-    "lint-fix": "eslint './**/*.{js,ts,tsx}' --fix"
+    "lint-fix": "eslint './**/*.{js,ts,tsx}' --fix",
+    "postinstall": "node setConfig.js; cd ./node_modules/alastria-identity-lib; tsc"
   },
   "repository": {
     "type": "git",
